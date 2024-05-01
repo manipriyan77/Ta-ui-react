@@ -1,0 +1,16 @@
+.layout{
+    background-color: #F9F9F9;
+    min-height: 100vh;
+   
+    .main{
+        padding-top: 60px;
+        display: flex;
+        .sidebar{
+            width: 125px;
+        }
+        .dashboard{
+            width: calc(100% - 125px);
+            padding: 0 25px;
+        }
+    }
+}

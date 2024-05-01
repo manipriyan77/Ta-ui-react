@@ -1,0 +1,21 @@
+.search-container {
+    position: relative;
+
+    input {
+        height: 48px;
+    }
+}
+
+.search-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #aaa;
+    cursor: pointer;
+
+    svg {
+        width: 25px;
+        height: 25px;
+    }
+}
